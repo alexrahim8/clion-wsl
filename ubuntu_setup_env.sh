@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-SSHD_LISTEN_ADDRESS=127.0.0.1
+SSHD_LISTEN_ADDRESS=0.0.0.0
 
 SSHD_PORT=2222
 SSHD_FILE=/etc/ssh/sshd_config
